@@ -11,6 +11,7 @@ import {
 import Home, { homeLoader } from "./Home";
 import Pricing, { pricingLoader } from "./Pricing";
 import Contact, { contactLoader } from "./Contact";
+import Services, { serviecsLoader } from "./Services";
 import Error, { errorLoader } from "./Error";
 
 // https://reactrouter.com/en/main/routers/create-browser-router
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "Pricing",
         element: <Pricing />,
+      },
+      {
+        path: "Services",
+        element: <Services />,
       },
       {
         path: "Contact",

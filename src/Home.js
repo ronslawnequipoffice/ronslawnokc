@@ -1,6 +1,6 @@
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 
 import Container from 'react-bootstrap/Container';
@@ -16,9 +16,10 @@ export default function Home() {
             <Container>
               <Navbar.Brand href="#home">Ron's Lawn Equipment</Navbar.Brand>
               <Nav className="me-auto">
-                <Link to={`/`}>Home</Link>
-                <Link to={`Pricing`}>Pricing</Link>
-                <Link to={`Contact`}>Contact</Link>
+                <NavLink to="/" className="nav-link">Home</NavLink>
+                <NavLink to="Services" className="nav-link">Services</NavLink>
+                <NavLink to="Pricing" className="nav-link">Pricing</NavLink>
+                <NavLink to="Contact" className="nav-link">Contact</NavLink>
               </Nav>
             </Container>
           </Navbar>        
@@ -56,6 +57,7 @@ export default function Home() {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
+          <Outlet/>
         </div>
         )
 }
