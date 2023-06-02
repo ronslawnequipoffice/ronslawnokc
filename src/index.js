@@ -12,7 +12,7 @@ import Home, { homeLoader } from "./Home";
 import Pricing, { pricingLoader } from "./Pricing";
 import Error, { errorLoader } from "./Error";
 
-
+// https://reactrouter.com/en/main/routers/create-browser-router
 const router = createBrowserRouter([
   {
     path: "/",
