@@ -1,13 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import Home from './Home';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+import Home, { homeLoader } from "./Home";
+import Pricing, { pricingLoader } from "./Pricing";
+import Error, { errorLoader } from "./Error";
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <Error />,
+    children: [
+      {
+        path: "Pricing",
+        element: <Pricing />,
+      },
+    ],
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></link>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
