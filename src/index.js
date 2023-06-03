@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import Home from './Home';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 
+import Root, { rootLoader } from "./Root";
 import Home, { homeLoader } from "./Home";
 import Pricing, { pricingLoader } from "./Pricing";
 import Contact, { contactLoader } from "./Contact";
@@ -18,9 +18,13 @@ import Error, { errorLoader } from "./Error";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Root />,
     errorElement: <Error />,
     children: [
+      {
+        path: "Home",
+        element: <Home />,
+      },
       {
         path: "Pricing",
         element: <Pricing />,

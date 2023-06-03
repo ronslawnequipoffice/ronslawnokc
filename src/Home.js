@@ -8,21 +8,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-export default function Home() {
+export default function Root() {
 
   return (
         <div>
-          <Navbar bg="dark" variant="dark">
-            <Container>
-              <Navbar.Brand href="#home">Ron's Lawn Equipment</Navbar.Brand>
-              <Nav className="me-auto">
-                <NavLink to="/" className="nav-link">Home</NavLink>
-                <NavLink to="Services" className="nav-link">Services</NavLink>
-                <NavLink to="Pricing" className="nav-link">Pricing</NavLink>
-                <NavLink to="Contact" className="nav-link">Contact</NavLink>
-              </Nav>
-            </Container>
-          </Navbar>        
           <Carousel>
             <Carousel.Item>              
               <img
