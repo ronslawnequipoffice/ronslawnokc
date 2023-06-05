@@ -20,7 +20,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     errorElement: <Error />,
+    defualt: "/Home",
     children: [
+      {
+        path: "/",  // defualt path set to home
+        element: <Home />,
+      },
       {
         path: "Home",
         element: <Home />,

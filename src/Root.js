@@ -1,8 +1,6 @@
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet, NavLink } from "react-router-dom";
-import Carousel from 'react-bootstrap/Carousel';
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
