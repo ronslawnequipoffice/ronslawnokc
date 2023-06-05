@@ -16,7 +16,7 @@ export default function Root() {
               <Nav className="me-auto">
                 <NavLink to="Home" className="nav-link">Home</NavLink>
                 <NavLink to="Services" className="nav-link">Services</NavLink>
-                <NavLink to="Pricing" className="nav-link">Pricing</NavLink>
+                {/* <NavLink to="Pricing" className="nav-link">Pricing</NavLink> */}
                 <NavLink to="Contact" className="nav-link">Contact</NavLink>
               </Nav>
             </Container>
