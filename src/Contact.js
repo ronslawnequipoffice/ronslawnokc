@@ -7,7 +7,7 @@ export default function Contact() {
 
     return (
       <div>
-        <GoogleMap
+        {/* <GoogleMap
           defaultZoom={8}
           defaultCenter={{ lat: -34.397, lng: 150.644 }}
         >
@@ -15,7 +15,7 @@ export default function Contact() {
         </GoogleMap>
 
         <MyMapComponent isMarkerShown />// Map with a Marker
-        <MyMapComponent isMarkerShown={false} />// Just only Map
+        <MyMapComponent isMarkerShown={false} />// Just only Map */}
       </div>
     );
   }
