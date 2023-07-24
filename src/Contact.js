@@ -1,21 +1,26 @@
-import { useMemo } from "react";
-// import { GoogleMap, Marker } from "react-google-maps"
-// import { GoogleMap, Loader, Marker } from "@googlemaps/js-api-loader"
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "@googlemaps/js-api-loader"
-export default function Contact() {
 
+import GoogleMapReact from 'google-map-react'
+// import "./contact.css";
 
-    return (
-      <div>
-        {/* <GoogleMap
-          defaultZoom={8}
-          defaultCenter={{ lat: -34.397, lng: 150.644 }}
-        >
-        {props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} />}
-        </GoogleMap>
+const location = {
+  address: '1600 Amphitheatre Parkway, Mountain View, california.',
+  lat: 37.42216,
+  lng: -122.08427,
+}
 
-        <MyMapComponent isMarkerShown />// Map with a Marker
-        <MyMapComponent isMarkerShown={false} />// Just only Map */}
-      </div>
-    );
-  }
+const Map = ({ location, zoomLevel }) => (
+  <div className="map">
+    <h2 className="map-h2">The google map</h2>
+
+    <div className="google-map">
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: 'AIzaSyBol_7kzcpNWjPPN6ATe_FoAx_7CGOiR_0' }}
+        defaultCenter={location}
+        defaultZoom={zoomLevel}
+      >
+      </GoogleMapReact>
+    </div>
+  </div>
+)
+
+export default Map;
