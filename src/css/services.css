@@ -1,0 +1,40 @@
+.servicesCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;    
+    margin-top: 3vh;
+}
+
+div.card{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.card-title{
+    font-size: x-large;
+    align-self: center;
+    font-weight:bold;
+    height: 6vh;
+    margin: 5px;
+}
+
+.card-img, .card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.serviceInfo{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    font-weight:bold;
+    margin-top: 1vh;
+}
+
+/* not the best way to do this but its whatever for now */
+.serviceInfo > .item{
+    font-size: large;
+    font-weight:lighter;
+    margin-top: 0;
+}

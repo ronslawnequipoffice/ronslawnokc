@@ -1,4 +1,4 @@
-import './home.css';
+import './css/home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet, NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
@@ -16,7 +16,7 @@ export default function Root() {
               <Nav className="me-auto">
                 <NavLink to="Home" className="nav-link">Home</NavLink>
                 <NavLink to="Services" className="nav-link">Services</NavLink>
-                {/* <NavLink to="Pricing" className="nav-link">Pricing</NavLink> */}
+                <NavLink to="Sales" className="nav-link">Sales</NavLink>
                 <NavLink to="Contact" className="nav-link">Contact</NavLink>
               </Nav>
             </Container>

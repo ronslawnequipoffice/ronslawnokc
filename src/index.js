@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/index.css';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -12,6 +12,7 @@ import Home, { homeLoader } from "./Home";
 import Pricing, { pricingLoader } from "./Pricing";
 import Contact, { contactLoader } from "./Contact";
 import Services, { serviecsLoader } from "./Services";
+import Sales, { salesLoader } from "./Sales";
 import Error, { errorLoader } from "./Error";
 
 // https://reactrouter.com/en/main/routers/create-browser-router
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "Contact",
         element: <Contact />,
+      },
+      {
+        path: "Sales",
+        element: <Sales />,
       },
     ],
   },
