@@ -7,16 +7,24 @@
 }
 
 div.card{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: .5vh;
+    margin-left: .5vw;
+    margin-right: .5w;
 }
 
 div.card-title{
-    font-size: x-large;
-    align-self: center;
-    font-weight:bold;
-    height: 6vh;
     margin: 5px;
+}
+
+div.card-title > span{
+    text-align:center;
+    display: flex;
+    font-size: x-large;
+    font-weight:bold;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .card-img, .card-img-top{

@@ -7,7 +7,7 @@ export default function Services() {
       <div className="servicesCards">
         
         <Card style={{ width: '20rem' }}>
-          <Card.Title>Riding/Z-Turn/Stand-On Mowers</Card.Title>
+          <Card.Title><span>Riding/Z-Turn/Stand-On Mowers</span></Card.Title>
           <Card.Img variant="top" src={require("./images/image2.png")} />
           <Card.Body>
             <Card.Text>
@@ -41,7 +41,7 @@ export default function Services() {
         </Card>
 
         <Card style={{ width: '20rem' }}>
-          <Card.Title>Push/Self-Propelled Mowers</Card.Title>
+          <Card.Title><span>Push/Self-Propelled Mowers</span></Card.Title>
           <Card.Img variant="top" src={require("./images/image2.png")} />
           <Card.Body>
             <Card.Text>
@@ -63,7 +63,7 @@ export default function Services() {
         </Card>
 
         <Card style={{ width: '20rem' }}>
-          <Card.Title>Generators/Augers</Card.Title>
+          <Card.Title><span>Generators/Augers</span></Card.Title>
           <Card.Img variant="top" src={require("./images/image2.png")} />
           <Card.Body>
             <Card.Text>
@@ -81,7 +81,7 @@ export default function Services() {
         </Card>
 
         <Card style={{ width: '20rem' }}>
-          <Card.Title>Heaters</Card.Title>
+          <Card.Title><span>Heaters</span></Card.Title>
           <Card.Img variant="top" src={require("./images/image2.png")} />
           <Card.Body>
             <Card.Text>
@@ -99,7 +99,7 @@ export default function Services() {
         </Card>
 
         <Card style={{ width: '20rem' }}>
-        <Card.Title>Hand Held 2-Cycle Equipment</Card.Title>
+        <Card.Title><span>Hand Held 2-Cycle Equipment</span></Card.Title>
           <Card.Img variant="top" src={require("./images/image2.png")} />
           <Card.Body>
             <Card.Text>
