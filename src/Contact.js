@@ -1,5 +1,5 @@
 import GoogleMapReact from 'google-map-react'
-import "./contact.css";
+import "./css/contact.css";
 
 export default function Contact(){
 
