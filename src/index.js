@@ -1,11 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './css/index.css';
-import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./css/index.css";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Root, { rootLoader } from "./Root";
 import Home, { homeLoader } from "./Home";
@@ -13,6 +10,7 @@ import Pricing, { pricingLoader } from "./Pricing";
 import Contact, { contactLoader } from "./Contact";
 import Services, { serviecsLoader } from "./Services";
 import Sales, { salesLoader } from "./Sales";
+import Info, { infoLoader } from "./Info";
 import Error, { errorLoader } from "./Error";
 
 // https://reactrouter.com/en/main/routers/create-browser-router
@@ -24,7 +22,7 @@ const router = createBrowserRouter([
     defualt: "/Home",
     children: [
       {
-        path: "/",  // defualt path set to home
+        path: "/", // defualt path set to home
         element: <Home />,
       },
       {
@@ -40,6 +38,10 @@ const router = createBrowserRouter([
         element: <Services />,
       },
       {
+        path: "Info",
+        element: <Info />,
+      },
+      {
         path: "Contact",
         element: <Contact />,
       },
@@ -51,7 +53,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />

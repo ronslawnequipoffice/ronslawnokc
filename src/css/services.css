@@ -27,9 +27,22 @@ div.card-title > span{
     flex-direction: row;
 }
 
+.cardDiv{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-img, .card-img-top{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+.card-img > img{
+    height: auto;
+    width: auto;
 }
 
 .serviceInfo{
