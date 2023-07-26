@@ -20,7 +20,7 @@ export default function Contact() {
     <div className="contact-content">
       <div className="google-map">
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyBol_7kzcpNWjPPN6ATe_FoAx_7CGOiR_0" }}
+          bootstrapURLKeys={{ key: GOOGLE_MAPS_API_KEY }}
           defaultCenter={location}
           defaultZoom={17}
           yesIWantToUseGoogleMapApiInternals
