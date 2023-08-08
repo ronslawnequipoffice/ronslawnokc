@@ -59,3 +59,68 @@ div.card-title > span{
     font-weight:lighter;
     margin-top: 0;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .servicesCards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;    
+        margin-top: 3vh;
+    }
+    
+    div.card{
+        margin-top: .5vh;
+        margin-left: .5vw;
+        margin-right: .5w;
+    }
+    
+    div.card-title{
+        margin: 5px;
+    }
+    
+    div.card-title > span{
+        text-align:center;
+        display: flex;
+        font-size: x-large;
+        font-weight:bold;
+        height: 7vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .cardDiv{
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-img, .card-img-top{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    
+    .card-img > img{
+        height: auto;
+        width: auto;
+    }
+    
+    .serviceInfo{
+        display: flex;
+        flex-direction: column;
+        font-size: x-large;
+        font-weight:bold;
+        margin-top: 1vh;
+    }
+    
+    /* not the best way to do this but its whatever for now */
+    .serviceInfo > .item{
+        font-size: large;
+        font-weight:lighter;
+        margin-top: 0;
+    }
+  } 
