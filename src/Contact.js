@@ -2,6 +2,8 @@ import GoogleMapReact from "google-map-react";
 import "./css/contact.css";
 
 export default function Contact() {
+  console.log('REACT_APP_TEST_VARIABLE', process.env.REACT_APP_TEST_VARIABLE)
+
   const location = {
     address: "5700 S Western Ave, Oklahoma City, OK 73109",
     lat: 35.4092585,
@@ -12,7 +14,7 @@ export default function Contact() {
     let marker = new maps.Marker({
       position: { lat: 35.40928408444798, lng: -97.52972873038354 },
       map,
-      title: "Ron's Lawn Equipmentss",
+      title: "Ron's Lawn Equipments",
     });
   };
 
@@ -20,6 +22,7 @@ export default function Contact() {
     <div className="contact-content">
       <div className="google-map">
         <GoogleMapReact
+          // bootstrapURLKeys={{ key: GOOGLE_MAPS_API_KEY  }}
           bootstrapURLKeys={{ key: "AIzaSyBol_7kzcpNWjPPN6ATe_FoAx_7CGOiR_0"  }}
           defaultCenter={location}
           defaultZoom={17}
@@ -30,7 +33,8 @@ export default function Contact() {
       <div className="contactInfo">
         <div className="infoLine">
           <div className="addressLine">
-            <label className="addressLabel">Address</label>
+            <label className="addressLabel">process.env.REACT_APP_TEST_VARIABLE</label>
+            {/* <label className="addressLabel">Address</label> */}
             <span className="addressInfo">
               5700 S Western Ave, Oklahoma City, OK 73109
             </span>
