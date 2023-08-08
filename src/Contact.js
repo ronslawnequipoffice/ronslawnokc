@@ -2,7 +2,7 @@ import GoogleMapReact from "google-map-react";
 import "./css/contact.css";
 
 export default function Contact() {
-  console.log('GOOGLE_MAPS_API_KEY', process.env.GOOGLE_MAPS_API_KEY)
+  console.log('REACT_APP_GOOGLE_MAPS_API_KEY', process.env.REACT_APP_GOOGLE_MAPS_API_KEY)
 
   const location = {
     address: "5700 S Western Ave, Oklahoma City, OK 73109",
@@ -23,7 +23,7 @@ export default function Contact() {
       <div className="google-map">
         <GoogleMapReact
           // bootstrapURLKeys={{ key: GOOGLE_MAPS_API_KEY  }}
-          bootstrapURLKeys={{ key: process.env.GOOGLE_MAPS_API_KEY  }}
+          bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY  }}
           // bootstrapURLKeys={{ key: "AIzaSyBol_7kzcpNWjPPN6ATe_FoAx_7CGOiR_0"  }}
           defaultCenter={location}
           defaultZoom={17}
