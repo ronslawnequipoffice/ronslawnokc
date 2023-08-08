@@ -12,7 +12,7 @@ export default function Contact() {
     let marker = new maps.Marker({
       position: { lat: 35.40928408444798, lng: -97.52972873038354 },
       map,
-      title: "Ron's Lawn Equipment",
+      title: "Ron's Lawn Equipments",
     });
   };
 

@@ -18,7 +18,7 @@ export default function Root() {
       <div>
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="./Home">Ron's Lawn Equipment</Navbar.Brand>
+            <Navbar.Brand href="./Home">Ron's On moblie</Navbar.Brand>
             <Nav className="me-auto">
               <NavLink to="Home" className="nav-link">
                 Home
@@ -46,7 +46,7 @@ export default function Root() {
     <div>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="./Home">Ron's Lawn Equipment</Navbar.Brand>
+          <Navbar.Brand href="./Home">Ron's on Desktop</Navbar.Brand>
           <Nav className="me-auto">
             <NavLink to="Home" className="nav-link">
               Home
