@@ -12,7 +12,7 @@ export default function Contact() {
     let marker = new maps.Marker({
       position: { lat: 35.40928408444798, lng: -97.52972873038354 },
       map,
-      title: "Ron's Lawn Equipments",
+      title: "Ron's Lawn Equipmentss",
     });
   };
 
@@ -20,7 +20,7 @@ export default function Contact() {
     <div className="contact-content">
       <div className="google-map">
         <GoogleMapReact
-          bootstrapURLKeys={{ key: GOOGLE_MAPS_API_KEY }}
+          bootstrapURLKeys={{ key: "AIzaSyBol_7kzcpNWjPPN6ATe_FoAx_7CGOiR_0"  }}
           defaultCenter={location}
           defaultZoom={17}
           yesIWantToUseGoogleMapApiInternals
