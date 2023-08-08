@@ -32,8 +32,7 @@ export default function Contact() {
       <div className="contactInfo">
         <div className="infoLine">
           <div className="addressLine">
-            <label className="addressLabel">process.env.GOOGLE_MAPS_API_KEY</label>
-            {/* <label className="addressLabel">Address</label> */}
+            <label className="addressLabel">Address</label>
             <span className="addressInfo">
               5700 S Western Ave, Oklahoma City, OK 73109
             </span>
