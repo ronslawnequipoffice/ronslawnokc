@@ -2,7 +2,7 @@ import GoogleMapReact from "google-map-react";
 import "./css/contact.css";
 
 export default function Contact() {
-  console.log('REACT_APP_TEST_VARIABLE', process.env.REACT_APP_TEST_VARIABLE)
+  console.log('GOOGLE_MAPS_API_KEY', process.env.GOOGLE_MAPS_API_KEY)
 
   const location = {
     address: "5700 S Western Ave, Oklahoma City, OK 73109",
@@ -33,7 +33,7 @@ export default function Contact() {
       <div className="contactInfo">
         <div className="infoLine">
           <div className="addressLine">
-            <label className="addressLabel">process.env.REACT_APP_TEST_VARIABLE</label>
+            <label className="addressLabel">process.env.GOOGLE_MAPS_API_KEY</label>
             {/* <label className="addressLabel">Address</label> */}
             <span className="addressInfo">
               5700 S Western Ave, Oklahoma City, OK 73109
