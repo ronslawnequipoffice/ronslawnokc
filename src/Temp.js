@@ -68,6 +68,7 @@ export default function Temp() {
               </span>
               <span className="hoursInfo">Saturday : 8:00 am - 12:00 pm</span>
               <span className="hoursInfo">Sunday : Closed</span>
+              <span className="hoursInfo">Labor Day(Sep. 4th) : Closed</span>
             </div>
           </div>
         </div>
