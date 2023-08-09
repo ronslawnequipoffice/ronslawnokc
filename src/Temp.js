@@ -74,7 +74,7 @@ export default function Temp() {
         </div>
         <div className="google-map">
           <GoogleMapReact
-            bootstrapURLKeys={{ key: "AIzaSyAlemJTdVjNxKy2wBkSYswSJygwDlvUQxU"  }}
+            bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY  }}
             defaultCenter={location}
             defaultZoom={17}
             yesIWantToUseGoogleMapApiInternals
