@@ -1,0 +1,77 @@
+.navbar{
+  background-color: #2d5052 !important;
+} 
+
+.temp-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temp-content .contactInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.theBanner{
+  height: 30px;
+  width: 100%;
+}
+
+.sorry{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstSpan{
+  font-size: xx-large;
+}
+
+.infoLine, .addressLine, .phoneLine, .hoursLine{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.addressLabel, .phoneLabel, .hoursLabel{
+  font-size: x-large;
+}
+
+.google-map {
+  height: 50vh;
+  width: 100%;
+}
+
+.map-h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.pin {
+  width: 15vw;
+}
+
+.pin-icon {
+  font-size: 10vw;
+}
+
+.pin-text {
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 799px) {
+  .google-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+  }
+
+}

@@ -13,18 +13,20 @@ import Sales, { salesLoader } from "./Sales";
 import Info, { infoLoader } from "./Info";
 import Error, { errorLoader } from "./Error";
 
+import Temp, { tempLoader } from "./Temp";
+
 // https://reactrouter.com/en/main/routers/create-browser-router
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <Temp />,
     errorElement: <Error />,
-    defualt: "/Home",
+    defualt: "/Temp",
     children: [
-      {
-        path: "/", // defualt path set to home
-        element: <Home />,
-      },
+      // {
+      //   path: "/", // defualt path set to home
+      //   element: <Temp />,
+      // },
       {
         path: "Home",
         element: <Home />,
@@ -48,7 +50,7 @@ const router = createBrowserRouter([
       {
         path: "Sales",
         element: <Sales />,
-      },
+      }
     ],
   },
 ]);

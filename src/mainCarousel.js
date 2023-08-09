@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet, NavLink } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 
-export default function Home() {
+export default function mainCarousel() {
 
   return (
         <div>
@@ -42,7 +42,6 @@ export default function Home() {
             </Carousel.Item>
           </Carousel>
           <Outlet/>
-          <div>Testing to see if this shows up</div>
         </div>
         )
 }
