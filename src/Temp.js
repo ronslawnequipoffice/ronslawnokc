@@ -36,24 +36,20 @@ export default function Temp() {
         </Container>
       </Navbar>
       <Outlet />
-      <mainCarousel/>
+      <mainCarousel />
       <div className="temp-content">
         <div className="sorry">
           <span className="firstSpan">We are sorry!</span>
           <span>Our new website is still under construction.</span>
           <span>Here is some information to help you contact us.</span>
           <span>We look forward hearing from you!</span>
-        </div >
+        </div>
         <div className="contactInfo">
           <div className="infoLine">
             <div className="addressLine">
               <label className="addressLabel">Address</label>
-              <span className="addressInfo">
-                5700 S Western Ave
-              </span>
-              <span>
-                Oklahoma City, OK 73109
-              </span>
+              <span className="addressInfo">5700 S Western Ave</span>
+              <span>Oklahoma City, OK 73109</span>
             </div>
 
             <div className="phoneLine">
@@ -68,13 +64,17 @@ export default function Temp() {
               </span>
               <span className="hoursInfo">Saturday : 8:00 am - 12:00 pm</span>
               <span className="hoursInfo">Sunday : Closed</span>
-              <span className="hoursInfo">Labor Day(Sep. 4th) : Closed</span>
+              <span className="hoursInfo">
+                Labor Day Weekend(Sep. 2nd - 4th) : Closed
+              </span>
             </div>
           </div>
         </div>
         <div className="google-map">
           <GoogleMapReact
-            bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY  }}
+            bootstrapURLKeys={{
+              key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+            }}
             defaultCenter={location}
             defaultZoom={17}
             yesIWantToUseGoogleMapApiInternals
