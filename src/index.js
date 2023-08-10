@@ -13,20 +13,20 @@ import Sales, { salesLoader } from "./Sales";
 import Info, { infoLoader } from "./Info";
 import Error, { errorLoader } from "./Error";
 
-import Temp, { tempLoader } from "./Temp";
+// import Temp, { tempLoader } from "./Temp-NotNeeded";
 
 // https://reactrouter.com/en/main/routers/create-browser-router
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Temp />,
+    element: <Root />,
     errorElement: <Error />,
-    defualt: "/Temp",
+    defualt: "/Home",
     children: [
-      // {
-      //   path: "/", // defualt path set to home
-      //   element: <Temp />,
-      // },
+      {
+        path: "/", // defualt path set to home
+        element: <Home />,
+      },
       {
         path: "Home",
         element: <Home />,

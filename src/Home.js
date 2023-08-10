@@ -42,7 +42,6 @@ export default function Home() {
             </Carousel.Item>
           </Carousel>
           <Outlet/>
-          <div>Testing to see if this shows up</div>
         </div>
         )
 }
