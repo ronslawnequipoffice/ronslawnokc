@@ -8,7 +8,6 @@ import "./css/temp.css";
 import mainCarousel, { carouselLoader } from "./mainCarousel";
 
 export default function Temp() {
-  // console.log('REACT_APP_GOOGLE_MAPS_API_KEY', process.env.REACT_APP_GOOGLE_MAPS_API_KEY)
 
   const location = {
     address: "5700 S Western Ave, Oklahoma City, OK 73109",
@@ -32,7 +31,7 @@ export default function Temp() {
     <div>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#">Ron's Lawn Equipment</Navbar.Brand>
+          <Navbar.Brand href="#">Ron's Lawn Equipment new</Navbar.Brand>
         </Container>
       </Navbar>
       <Outlet />
