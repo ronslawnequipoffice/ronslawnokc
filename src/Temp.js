@@ -31,7 +31,7 @@ export default function Temp() {
     <div>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#">Ron's Lawn Equipment new</Navbar.Brand>
+          <Navbar.Brand href="#">Ron's Lawn Equipment</Navbar.Brand>
         </Container>
       </Navbar>
       <Outlet />
