@@ -19,20 +19,10 @@ export default function Info() {
                 <span>Left the hood and check underneath the hood.</span>
                 <div className='pictures'>
                     <img
-                    className="picture"
-                    src={require("./images/riderModelSpots.png")}
+                    className="unTouchedPicture"
+                    src={require("./images/modelPictures/steeringRiderModelSpots.png")}
                     alt="First slide"
-                    />      
-                    <img
-                    className="picture"
-                    src={require("./images/riderModelSpots.png")}
-                    alt="First slide"
-                    />      
-                    <img
-                    className="picture"
-                    src={require("./images/riderModelSpots.png")}
-                    alt="First slide"
-                    />      
+                    />
                 </div>  
               </Accordion.Body>
             </Accordion.Item>
@@ -41,7 +31,15 @@ export default function Info() {
               <Accordion.Header>Z-turn riding lawnmowers</Accordion.Header>
               <Accordion.Body>
                 <span>Lift the seat and search underneath it.</span>
-                <span>Left the hood and check underneath the hood.</span>
+                <span>Around the area where your feet go</span>
+                <span>Where the engine and frame meet</span>
+                <div className='pictures'>   
+                    <img
+                    className="picture"
+                    src={require("./images/modelPictures/zturnModelNextToEngine.png")}
+                    alt="First slide"
+                    />          
+                </div>  
               </Accordion.Body>
             </Accordion.Item>
 
@@ -51,6 +49,23 @@ export default function Info() {
                 <span>Between the two back wheels</span>
                 <span>Behind one of the wheels</span>
                 <span>Lift the flap of where the bag goes and search underneath</span>
+                <div className='pictures'>
+                    <img
+                    className="picture"
+                    src={require("./images/modelPictures/pushModelBetweenWheels.png")}
+                    alt="First slide"
+                    />      
+                    <img
+                    className="picture"
+                    src={require("./images/modelPictures/pushModelBehindWheel.png")}
+                    alt="First slide"
+                    />      
+                    <img
+                    className="picture"
+                    src={require("./images/modelPictures/pushModelBehindFlap.png")}
+                    alt="First slide"
+                    />      
+                </div>  
               </Accordion.Body>
             </Accordion.Item>
 
@@ -60,6 +75,18 @@ export default function Info() {
                 <span>Usually it is marked near the engine</span>
                 <span>Underneath is sometimes a sticker with model and serial.</span>
                 <span>Check the shaft on equipment that has a shaft.</span>
+                <div className='pictures'>
+                    <img
+                    className="picture"
+                    src={require("./images/modelPictures/blowerModels.png")}
+                    alt="First slide"
+                    />      
+                    <img
+                    className="picture"
+                    src={require("./images/modelPictures/trimmerModel.png")}
+                    alt="First slide"
+                    />      
+                </div>  
               </Accordion.Body>
             </Accordion.Item>
 
@@ -69,6 +96,23 @@ export default function Info() {
                 <span>Sticker on the side of the engine (Newer ones might even have a QR code for you to scan)</span>
                 <span>Check around the value cover. (Might need a towel to rub dirt away)</span>
                 <span>Next to the muffler. Might need to move a piece of plastic.</span>
+                <div className='pictures'>
+                    <img
+                    className="picture"
+                    src={require("./images/modelPictures/engineModelOnSideSticker.png")}
+                    alt="First slide"
+                    />      
+                    <img
+                    className="unTouchedPicture"
+                    src={require("./images/modelPictures/engineModelOnValvueCover.png")}
+                    alt="First slide"
+                    />      
+                    <img
+                    className="picture"
+                    src={require("./images/modelPictures/nextToMufflerModel.png")}
+                    alt="First slide"
+                    />      
+                </div>  
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
