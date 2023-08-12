@@ -1,0 +1,43 @@
+.info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-para{
+    width: 80vw;
+    margin: 30px;
+}
+
+.info-body{
+    display: flex;
+    width: 80vw;
+}
+
+.accordion{
+    width: 80vw;
+}
+
+.accordion-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen 
+and (max-device-width: 600px)
+{ 
+    .pictures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}

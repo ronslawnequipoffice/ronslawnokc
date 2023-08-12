@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 export default function Home() {
 
   return (
-        <div>
+        <div className='home-content'>
           <Carousel>
             <Carousel.Item>              
               <img
