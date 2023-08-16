@@ -29,8 +29,7 @@ export default function Temp() {
             </div>
             <div className="phoneLine">
               <label className="phoneLabel">Phone Number</label>
-              <span className="phoneInfo">(405)631-3801</span>
-              <a href="tel:405-631-3801">(405)631-3801</a>
+              <span className="phoneInfo"><a href="tel:405-631-3801">(405)631-3801</a></span>
             </div>
             <div className="hoursLine">
               <label className="hoursLabel">Hours</label>
