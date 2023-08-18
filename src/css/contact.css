@@ -10,14 +10,14 @@
   width: 50%;
 }
 
-.infoLine, .addressLine, .phoneLine, .hoursLine{
+.infoLine, .addressInfo, .phoneInfo, .hoursInfo, .paymentsInfo{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 30px;
 }
 
-.addressLabel, .phoneLabel, .hoursLabel{
+.addressLabel, .phoneLabel, .hoursLabel, .paymentLabel{
   font-size: x-large;
 }
 
@@ -25,8 +25,12 @@
   margin: 5px;
 }
 
+.hoursLine{
+  text-align: center;
+}
+
 .google-map {
-  height: 80vh;
+  height: 85vh;
   width: 50%;
 }
 
@@ -45,10 +49,6 @@
 
 .pin-text {
   font-size: 1.3em;
-}
-
-.hoursInfo{
-  text-align: center;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,7 +1,8 @@
 import GoogleMapReact from "google-map-react";
 import "./css/contact.css";
+import {PhoneNumber, Hours, Address, FormsOfPayments} from "./ShopInfo";
 
-export default function Temp() {
+export default function Contact() {
 
   const location = {
     address: "5700 S Western Ave, Oklahoma City, OK 73109",
@@ -22,26 +23,10 @@ export default function Temp() {
       <div className="contact-content">
         <div className="contactInfo">
           <div className="infoLine">
-            <div className="addressLine">
-              <label className="addressLabel">Address</label>
-              <span className="addressInfo">5700 S Western Ave</span>
-              <span>Oklahoma City, OK 73109</span>
-            </div>
-            <div className="phoneLine">
-              <label className="phoneLabel">Phone Number</label>
-              <span className="phoneInfo"><a href="tel:405-631-3801">(405)631-3801</a></span>
-            </div>
-            <div className="hoursLine">
-              <label className="hoursLabel">Hours</label>
-              <span className="hoursInfo">
-                Monday - Friday : 8:00 am - 5:00 pm{" "}
-              </span>
-              <span className="hoursInfo">Saturday : 8:00 am - 12:00 pm</span>
-              <span className="hoursInfo">Sunday : Closed</span>
-              <span className="hoursInfo">
-                Labor Day Weekend(Sep. 2nd - 4th) : Closed
-              </span>
-            </div>
+            <Address/>
+            <PhoneNumber/>
+            <Hours/>
+            <FormsOfPayments/>
           </div>
         </div>
         <div className="google-map">
