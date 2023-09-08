@@ -18,9 +18,6 @@ export function Hours() {
       </span>
       <span className="hoursLine">Saturday : 8:00 am - 12:00 pm</span>
       <span className="hoursLine">Sunday : Closed</span>
-      <span className="hoursLine">
-        Labor Day Weekend(Sep. 2nd - 4th) : Closed
-      </span>
     </div>
   );
 }
@@ -44,7 +41,7 @@ export function FormsOfPayments() {
       <span>Checks</span>
       <span>Cashier's Check</span>
       <span>Debit/Credit Card</span>
-      <span>(When using a card there will be an extra 3.5% added onto the total.</span>
+      <span>(When using a card there will be an extra 3.5% added onto the total bill.</span>
       <span>This will be reflected on the card receipt.)</span>
     </div>  
   );
