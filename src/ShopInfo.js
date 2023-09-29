@@ -18,6 +18,8 @@ export function Hours() {
       </span>
       <span className="hoursLine">Saturday : 8:00 am - 12:00 pm</span>
       <span className="hoursLine">Sunday : Closed</span>
+      <span className="hoursLine">September 30th is the last Saturday we are open until Spring.</span>
+      <span className="hoursLine">We will be switching to winter hours in November.</span>
     </div>
   );
 }

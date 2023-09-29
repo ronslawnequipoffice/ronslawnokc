@@ -23,3 +23,24 @@ and (max-device-width: 600px)
         flex-wrap: wrap !important;
     }
 }
+
+.brandLogos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.brandLogos .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandLogos .logoImage{
+    margin: 10px;
+    max-height: 250px;
+    max-width: 250px;
+}
