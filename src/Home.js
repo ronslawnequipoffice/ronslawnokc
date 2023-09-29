@@ -11,7 +11,7 @@ export default function Home() {
             <Carousel.Item>              
               <img
                 className="d-block w-100"
-                src={require("./images/image1.png")}
+                src={require("./images/newImage.png")}
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -22,7 +22,7 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("./images/image2.png")}
+                src={require("./images/newImage2.png")}
                 alt="Second slide"
               />
               <Carousel.Caption>
@@ -33,7 +33,7 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("./images/image3.png")}
+                src={require("./images/newImage3.png")}
                 alt="Third slide"
               />
               <Carousel.Caption>

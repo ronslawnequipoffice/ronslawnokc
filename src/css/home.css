@@ -15,12 +15,19 @@ li{
     list-style: none;
 }
 
+.carousel-inner{
+    height: 600px;
+}
 
 @media only screen 
 and (max-device-width: 600px)
 { 
     .navbar-expand{
         flex-wrap: wrap !important;
+    }
+
+    .carousel-inner{
+        height: 300px;
     }
 }
 

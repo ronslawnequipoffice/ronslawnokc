@@ -1,8 +1,10 @@
+/* desktop view */
 .serviceCards{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;    
+    margin-top: 3vh;
 }
 
 .serviceCard{
@@ -69,13 +71,14 @@
 }
 
 
-@media only screen and (max-width: 800px) {
-    .servicesCards{
+/* mobile view */
+@media only screen and (max-width: 600px) {
+    .serviceCards{
         display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: center;    
-        margin-top: 3vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
     }
     
     div.card{
