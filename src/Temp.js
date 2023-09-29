@@ -64,7 +64,10 @@ export default function Temp() {
               <span className="hoursInfo">Saturday : 8:00 am - 12:00 pm</span>
               <span className="hoursInfo">Sunday : Closed</span>
               <span className="hoursInfo">
-                Labor Day Weekend(Sep. 2nd - 4th) : Closed
+                September 30th is the last Saturday we are open until Spring.
+              </span>
+              <span className="hoursInfo">
+                We will be switching to winter hours in November.
               </span>
             </div>
           </div>
