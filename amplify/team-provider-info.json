@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ronslawnokc-dev-201738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::405015068934:role/amplify-ronslawnokc-dev-201738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::405015068934:role/amplify-ronslawnokc-dev-201738-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ronslawnokc-dev-201738-deployment",
+      "UnauthRoleName": "amplify-ronslawnokc-dev-201738-unauthRole",
+      "StackName": "amplify-ronslawnokc-dev-201738",
+      "StackId": "arn:aws:cloudformation:us-east-1:405015068934:stack/amplify-ronslawnokc-dev-201738/11525f10-62f3-11ee-a4be-0e146a8e078f",
+      "AmplifyAppId": "d1ik176ueoqdzn"
+    },
+    "categories": {
+      "function": {
+        "ronslawnokc4eab5d97": {
+          "deploymentBucketName": "amplify-ronslawnokc-dev-201738-deployment",
+          "s3Key": "amplify-builds/ronslawnokc4eab5d97-617831444e4d4d61687a-build.zip"
+        }
+      },
+      "api": {
+        "ronslawnokc": {},
+        "ronslawnokcGraphQL": {}
+      }
+    }
+  }
+}

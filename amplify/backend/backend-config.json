@@ -1,0 +1,59 @@
+{
+  "api": {
+    "ronslawnokc": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "ronslawnokc4eab5d97"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
+    "ronslawnokcGraphQL": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "function": {
+    "ronslawnokc4eab5d97": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_ronslawnokc4eab5d97_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ronslawnokc4eab5d97"
+        }
+      ]
+    },
+    "AMPLIFY_function_ronslawnokc4eab5d97_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "ronslawnokc4eab5d97"
+        }
+      ]
+    }
+  }
+}
