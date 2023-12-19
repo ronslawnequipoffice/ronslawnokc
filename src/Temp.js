@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./css/temp.css";
 
-import mainCarousel, { carouselLoader } from "./mainCarousel";
+import MainCarousel, { carouselLoader } from "./mainCarousel";
 
 export default function Temp() {
 
@@ -35,7 +35,7 @@ export default function Temp() {
         </Container>
       </Navbar>
       <Outlet />
-      <mainCarousel />
+      <MainCarousel />
       <div className="temp-content">
         <div className="sorry">
           <span className="firstSpan">We are sorry!</span>

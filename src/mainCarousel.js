@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet, NavLink } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 
-export default function mainCarousel() {
+export default function MainCarousel() {
 
   return (
         <div>
