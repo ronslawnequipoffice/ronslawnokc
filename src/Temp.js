@@ -35,7 +35,7 @@ export default function Temp() {
         </Container>
       </Navbar>
       <Outlet />
-      <MainCarousel />
+      {/* <MainCarousel /> */}
       <div className="temp-content">
         <div className="sorry">
           <span className="firstSpan">We are sorry!</span>
