@@ -59,14 +59,12 @@ export default function Temp() {
             <div className="hoursLine">
               <label className="hoursLabel">Hours</label>
               <span className="hoursInfo">
-                Monday - Thursday : 8:00 am - 5:00 pm{" "}
+                Monday - Friday : 8:00 am - 5:00 pm{" "}
               </span>
-              <span className="hoursInfo">Friday : Closed</span>
-              <span className="hoursInfo">Saturday : Closed</span>
-              <span className="hoursInfo">Sunday : Closed</span>
               <span className="hoursInfo">
-                We will be closed starting on December 22nd and will re-open on January 2nd.
+                Saturday : 8:00 am - 12:00 pm{" "}
               </span>
+              <span className="hoursInfo">Sunday : Closed</span>
             </div>
           </div>
         </div>
