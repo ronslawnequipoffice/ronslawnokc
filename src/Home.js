@@ -3,18 +3,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet, NavLink } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 
-import { API } from 'aws-amplify'
-import { createTodo, updateTodo, deleteTodo } from './graphql/mutations'
-import { listTodos } from './graphql/queries'
+// import { API } from 'aws-amplify'
+// import { createTodo, updateTodo, deleteTodo } from './graphql/mutations'
+// import { listTodos } from './graphql/queries'
 
-const result = await API.graphql({
-  query: createTodo, 
-  variables: {
-    input: {
-      name: 'My first todo!'
-    }
-  }
-})
+// const result = await API.graphql({
+//   query: createTodo, 
+//   variables: {
+//     input: {
+//       name: 'My first todo!'
+//     }
+//   }
+// })
 
 export default function Home() {
 
