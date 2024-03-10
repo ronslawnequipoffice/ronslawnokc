@@ -18,7 +18,7 @@
 }
 
 .addressLabel, .phoneLabel, .hoursLabel, .paymentLabel{
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .infoLine > label, span{

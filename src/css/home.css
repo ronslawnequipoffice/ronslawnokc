@@ -30,6 +30,25 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: #595C5F;
+}
+
+.home-content .addressLabel, 
+.home-content .phoneLabel, 
+.home-content .hoursLabel, 
+.home-content .paymentLabel{
+    color: #212529;
+}
+
+.home-content .infoLine, 
+.home-content .addressLine, 
+.home-content .hoursLine{
+    color: white;
+}
+
+.home-content .phoneLine > a,
+.home-content .addressInfo  > a{
+    color: white;
 }
 
 .carouselDiv{

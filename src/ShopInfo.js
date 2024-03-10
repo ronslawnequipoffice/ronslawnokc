@@ -27,7 +27,7 @@ export function Address() {
     <div className="addressInfo">
       <label className="addressLabel">Address</label>
       <span className="addressLine">5700 S Western Ave</span>
-      <span>Oklahoma City, OK 73109</span>
+      <span className="addressLine">Oklahoma City, OK 73109</span>
       <a href="https://www.google.com/maps?daddr=5700+S+Western+Oklahoma+City+OK+73109+US" target="_blank">Get Directions</a>
     </div>  
   );
