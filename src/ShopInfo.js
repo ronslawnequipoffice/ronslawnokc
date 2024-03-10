@@ -43,8 +43,8 @@ export function FormsOfPayments() {
       <span>Checks</span>
       <span>Cashier's Check</span>
       <span>Debit/Credit Card</span>
-      <span>(When using a card there will be an extra 3.5% added onto the total bill.</span>
-      <span>This will be reflected on the card receipt.)</span>
+      <span>(Please note that a 3.5% surcharge will apply when using a card for payment.</span>
+      <span>This surcharge will be reflected on the card receipt and added to the total bill.)</span>
     </div>  
   );
 }

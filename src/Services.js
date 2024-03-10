@@ -8,7 +8,7 @@ export default function Services() {
           <span>Riding/Z-Turn/Stand-On Mowers</span>
         </div>
         <div className="cardPicture">
-          <img src={require("./images/rider.png")}/>
+          <img src={require("./images/servicesImages/rider.png")}/>
         </div>
         <div className="cardDescription">
           <div className="serviceInfo">
@@ -50,7 +50,7 @@ export default function Services() {
           <span>Push/Self-Propelled Mowers</span>
         </div>
         <div className="cardPicture">
-          <img src={require("./images/pushmower.png")}/>
+          <img src={require("./images/servicesImages/pushmower.png")}/>
         </div>
         <div className="cardDescription">
           <div className="serviceInfo">
@@ -78,7 +78,7 @@ export default function Services() {
         <span>Generators/Augers</span>
         </div>
         <div className="cardPicture">
-          <img src={require("./images/generator.png")}/>
+          <img src={require("./images/servicesImages/generator.png")}/>
         </div>
         <div className="cardDescription">
           <div className="serviceInfo">
@@ -98,10 +98,10 @@ export default function Services() {
 
       <div className="serviceCard">
         <div className="cardTitle">
-        <span>Generators/Augers</span>
+        <span>Heaters</span>
         </div>
         <div className="cardPicture">
-          <img src={require("./images/heater.png")}/>
+          <img src={require("./images/servicesImages/heater.png")}/>
         </div>
         <div className="cardDescription">
           <div className="serviceInfo">
@@ -121,10 +121,10 @@ export default function Services() {
 
       <div className="serviceCard">
         <div className="cardTitle">
-        <span>Generators/Augers</span>
+        <span>Hand Held 2-Cycle Equipment</span>
         </div>
         <div className="cardPicture">
-          <img src={require("./images/trimmer.png")}/>
+          <img src={require("./images/servicesImages/trimmer.png")}/>
         </div>
         <div className="cardDescription">
           <div className="serviceInfo">
