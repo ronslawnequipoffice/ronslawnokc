@@ -2,12 +2,22 @@ import './css/home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Outlet, NavLink } from "react-router-dom";
 import { MainCarousel } from "./mainCarousel.js";
+import {PhoneNumber, Hours, Address} from "./ShopInfo";
 
 export default function Home() {
 
   return (
         <div className='home-content'>
-          <MainCarousel/>
+          <div className='topper'>
+            <div className='leftOfCarousel'>
+              <Address/>
+              <PhoneNumber/>
+            </div>
+            <MainCarousel/>
+            <div className='rightOfCarousel'>
+              <Hours/>
+            </div>
+          </div>
           <Outlet/>
           <div className='brandLogos'>
             <div className='logo'>

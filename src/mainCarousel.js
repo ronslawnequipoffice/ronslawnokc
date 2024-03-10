@@ -7,7 +7,7 @@ export function MainCarousel() {
 
   return (
         <div className='carouselDiv'>
-          <Carousel interval={null}>
+          <Carousel >
             <Carousel.Item>              
               <img
                 className="d-block w-100"
@@ -15,7 +15,7 @@ export function MainCarousel() {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3></h3>
+                {/* <h3></h3> */}
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -26,7 +26,7 @@ export function MainCarousel() {
                 alt="Second slide"
               />
               <Carousel.Caption>
-                <h3></h3>
+                {/* <h3></h3> */}
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -37,7 +37,7 @@ export function MainCarousel() {
                 alt="Third slide"
               />
               <Carousel.Caption>
-                <h3></h3>
+                {/* <h3></h3> */}
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -48,18 +48,18 @@ export function MainCarousel() {
                 alt="Fourth slide"
               />
               <Carousel.Caption>
-                <h3></h3>
+                {/* <h3></h3> */}
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require("./images/shopImages/enginesAndOilArea2.jpg")}
+                src={require("./images/shopImages/enginesAndOilArea.jpg")}
                 alt="Fifth slide"
               />
               <Carousel.Caption>
-                <h3></h3>
+                {/* <h3></h3> */}
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

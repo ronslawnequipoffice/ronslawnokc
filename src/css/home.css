@@ -26,12 +26,28 @@ li{
     object-fit: contain;
 }
 
+.topper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .carouselDiv{
-    height: 800px;
+    height: 700px;
+    width: 50%;
+}
+
+.leftOfCarousel, .rightOfCarousel{
+    width: 20%;
 }
 
 .carousel, .carousel-item{
     height: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  filter: invert(1)
 }
 
 
@@ -44,6 +60,11 @@ and (max-device-width: 600px)
 
     .carouselDiv {
         height: 300px;
+        width: 100%;
+    }
+
+    .leftOfCarousel, .rightOfCarousel{
+        display: none;
     }
 }
 
