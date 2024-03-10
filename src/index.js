@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Root, { rootLoader } from "./Root";
 import Home, { homeLoader } from "./Home";
-import Pricing, { pricingLoader } from "./Pricing";
 import Contact, { contactLoader } from "./Contact";
 import Services, { serviecsLoader } from "./Services";
 import Sales, { salesLoader } from "./Sales";
@@ -30,10 +29,6 @@ const router = createBrowserRouter([
       {
         path: "Home",
         element: <Home />,
-      },
-      {
-        path: "Pricing",
-        element: <Pricing />,
       },
       {
         path: "Services",
