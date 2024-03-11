@@ -85,7 +85,6 @@ export default function Services() {
             Full Service
             <span className="item">Clean or Replace Carburetor</span>
             <span className="item">Clean or Replace Air Filter</span>
-            <span className="item">Clean or Replace Belt(s)</span>
             <span className="item">Clean or Replace Spark Plug(s)</span>
             <span className="item">Change Oil and Oil Filter</span>
             <span className="item">Change or Sharpen Blades</span>
@@ -106,12 +105,10 @@ export default function Services() {
         <div className="cardDescription">
           <div className="serviceInfo">
             Full Service
-            <span className="item">Clean or Replace Carburetor</span>
-            <span className="item">Clean or Replace Air Filter</span>
-            <span className="item">Clean or Replace Belt(s)</span>
-            <span className="item">Clean or Replace Spark Plug(s)</span>
-            <span className="item">Change Oil and Oil Filter</span>
-            <span className="item">Change or Sharpen Blades</span>
+            <span className="item">Clean or Replace Rotator Fan</span>
+            <span className="item">Clean or Replace Nozzle</span>
+            <span className="item">Replace all Hose(s), If needed</span>
+            <span className="item">Replace Filter Kit, If needed</span>
           </div>
           <div className="serviceInfo">
             Other Symptoms Can Be Fixed at Request
