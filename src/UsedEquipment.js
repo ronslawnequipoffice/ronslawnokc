@@ -1,7 +1,7 @@
 import "./css/sales.css";
 import Carousel from 'react-bootstrap/Carousel';
 
-export default function Sales() {  
+export default function UsedEquipment() {  
   return (
       <div className="serviceCards">
         <div className="serviceCard">

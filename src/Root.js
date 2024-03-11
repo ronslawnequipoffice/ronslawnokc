@@ -18,8 +18,8 @@ export default function Root() {
             <NavLink to="Services" className="nav-link">
               Services
             </NavLink>
-            <NavLink to="Sales" className="nav-link">
-              Sales
+            <NavLink to="UsedEquipment" className="nav-link">
+              Used Equipment
             </NavLink>
             <NavLink to="Info" className="nav-link">
               Info

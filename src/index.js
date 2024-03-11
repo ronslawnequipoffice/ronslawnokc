@@ -8,7 +8,7 @@ import Root, { rootLoader } from "./Root";
 import Home, { homeLoader } from "./Home";
 import Contact, { contactLoader } from "./Contact";
 import Services, { serviecsLoader } from "./Services";
-import Sales, { salesLoader } from "./Sales";
+import UsedEquipment, { salesLoader } from "./UsedEquipment";
 import Info, { infoLoader } from "./Info";
 import Error, { errorLoader } from "./Error";
 
@@ -43,8 +43,8 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "Sales",
-        element: <Sales />,
+        path: "UsedEquipment",
+        element: <UsedEquipment />,
       }
     ],
   },
