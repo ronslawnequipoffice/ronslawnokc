@@ -6,34 +6,29 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Root, { rootLoader } from "./Root";
 import Home, { homeLoader } from "./Home";
-import Pricing, { pricingLoader } from "./Pricing";
 import Contact, { contactLoader } from "./Contact";
 import Services, { serviecsLoader } from "./Services";
-import Sales, { salesLoader } from "./Sales";
+import UsedEquipment, { salesLoader } from "./UsedEquipment";
 import Info, { infoLoader } from "./Info";
 import Error, { errorLoader } from "./Error";
 
-import Temp, { tempLoader } from "./Temp";
+// import Temp, { tempLoader } from "./Temp-NotNeeded";
 
 // https://reactrouter.com/en/main/routers/create-browser-router
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Temp />,
+    element: <Root />,
     errorElement: <Error />,
-    defualt: "/Temp",
+    defualt: "/Home",
     children: [
-      // {
-      //   path: "/", // defualt path set to home
-      //   element: <Temp />,
-      // },
       {
-        path: "Home",
+        path: "/", // defualt path set to home
         element: <Home />,
       },
       {
-        path: "Pricing",
-        element: <Pricing />,
+        path: "Home",
+        element: <Home />,
       },
       {
         path: "Services",
@@ -48,8 +43,8 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "Sales",
-        element: <Sales />,
+        path: "UsedEquipment",
+        element: <UsedEquipment />,
       }
     ],
   },
