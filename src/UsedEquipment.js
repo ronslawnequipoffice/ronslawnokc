@@ -196,47 +196,6 @@ export default function UsedEquipment() {
             </div>
           </div>
         </div>
-
-        <div className="serviceCard">
-          <div className="cardTitle">
-          <span>Toro Grandstand - 36 Inch</span>
-          </div>
-          <div className="cardPicture">
-          <Carousel >
-              <Carousel.Item>              
-                <img
-                  className="d-block w-100"
-                  src={require("./images/sellImages/Grandstand/GrandStand1.jpg")}
-                  alt="First slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={require("./images/sellImages/Grandstand/GrandStand2.jpg")}
-                  alt="Second slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={require("./images/sellImages/Grandstand/GrandStand3.jpg")}
-                  alt="Third slide"
-                />
-              </Carousel.Item>
-            </Carousel>
-          </div>
-          <div className="cardDescription">
-            <div className="serviceInfo">
-              Details
-              <span className="item">Promo Price: $9,699.00</span>
-              <span className="item">Our Price: $8,400.00</span>
-              <span className="item">36 Inch Cut</span>
-              <span className="item">15hp Kawasaki</span>
-              <span className="item">Slightly Used</span>
-            </div>
-          </div>
-        </div>
       </div>
     );
 }
