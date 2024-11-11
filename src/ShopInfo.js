@@ -12,11 +12,11 @@ export function PhoneNumber() {
 export function Hours() {
   return (
     <div className="hoursInfo">
-      <label className="hoursLabel">Hours</label>
+      <label className="hoursLabel">Winter Hours</label>
       <span className="hoursLine">
         Monday - Friday : 8:00 am - 5:00 pm
       </span>
-      <span className="hoursLine">Saturday : 8:00 am - 12:00 pm</span>
+      <span className="hoursLine">Saturday : Closed</span>
       <span className="hoursLine">Sunday : Closed</span>
     </div>
   );
