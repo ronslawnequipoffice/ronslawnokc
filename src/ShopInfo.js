@@ -14,8 +14,12 @@ export function Hours() {
     <div className="hoursInfo">
       <label className="hoursLabel">Winter Hours</label>
       <span className="hoursLine">
-        Monday - Friday : 8:00 am - 5:00 pm
+        We will be closing 12/18/24 and will reopen 01/06/25
       </span>
+      <span className="hoursLine">
+        Monday - Thursday : 8:00 am - 5:00 pm
+      </span>
+      <span className="hoursLine">Friday : Closed</span>
       <span className="hoursLine">Saturday : Closed</span>
       <span className="hoursLine">Sunday : Closed</span>
     </div>
