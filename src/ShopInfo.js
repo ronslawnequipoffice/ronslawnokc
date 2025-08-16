@@ -18,6 +18,8 @@ export function Hours() {
       </span>
       <span className="hoursLine">Saturday : 8:00 am - 12:00 pm</span>
       <span className="hoursLine">Sunday : Closed</span>
+      <span className="hoursLine">August 30 : Closed</span>
+      <span className="hoursLine">September 1(Labor day) : Closed</span>
     </div>
   );
 }
