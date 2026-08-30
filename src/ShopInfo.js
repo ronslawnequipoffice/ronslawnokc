@@ -16,6 +16,11 @@ export function Hours() {
       <span className="hoursLine">Monday - Friday : 8:00 am - 5:00 pm</span>
       <span className="hoursLine">Saturday : 8:00 am - Noon</span>
       <span className="hoursLine">Sunday : Closed</span>
+      
+      <label className="hoursLabel">Special Hours</label>
+      <span className="hoursLine">Friday(9/5) : 8:00 am - 3:00 pm</span>
+      <span className="hoursLine">Saturday(9/5) : Closed</span>
+      <span className="hoursLine">Labor Day : Closed</span>
     </div>
   );
 }
